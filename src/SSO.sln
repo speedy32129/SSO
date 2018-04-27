@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.sso.com", "www.sso.com\", "{8A712313-EF42-4E51-8B47-EDF9CA9D4FFD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/www.sso.com"
+		Debug.AspNetCompiler.PhysicalPath = "www.sso.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\www.sso.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www.sso.com"
+		Release.AspNetCompiler.PhysicalPath = "www.sso.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\www.sso.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1596"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.domain1.com", "www.domain1.com\", "{90B3401F-A1E8-490C-B957-9B3F6A34D7F3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{6F4AD319-D462-4D41-B401-62C053F2E77D}|SSOLib.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/www.domain1.com"
+		Debug.AspNetCompiler.PhysicalPath = "www.domain1.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\www.domain1.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www.domain1.com"
+		Release.AspNetCompiler.PhysicalPath = "www.domain1.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\www.domain1.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1598"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.domain2.com", "www.domain2.com\", "{9F9B0D1B-0203-491A-BAC2-5D3F294BAFB9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{6F4AD319-D462-4D41-B401-62C053F2E77D}|SSOLib.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/www.domain2.com"
+		Debug.AspNetCompiler.PhysicalPath = "www.domain2.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\www.domain2.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www.domain2.com"
+		Release.AspNetCompiler.PhysicalPath = "www.domain2.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\www.domain2.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1600"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.domain3.com", "www.domain3.com\", "{F08D7687-58EC-4931-A974-BBF8FB70B0DA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{6F4AD319-D462-4D41-B401-62C053F2E77D}|SSOLib.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/www.domain3.com"
+		Debug.AspNetCompiler.PhysicalPath = "www.domain3.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\www.domain3.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www.domain3.com"
+		Release.AspNetCompiler.PhysicalPath = "www.domain3.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\www.domain3.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1602"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOLib", "SSOLib\SSOLib.csproj", "{6F4AD319-D462-4D41-B401-62C053F2E77D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A712313-EF42-4E51-8B47-EDF9CA9D4FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A712313-EF42-4E51-8B47-EDF9CA9D4FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A712313-EF42-4E51-8B47-EDF9CA9D4FFD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A712313-EF42-4E51-8B47-EDF9CA9D4FFD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{90B3401F-A1E8-490C-B957-9B3F6A34D7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B3401F-A1E8-490C-B957-9B3F6A34D7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B3401F-A1E8-490C-B957-9B3F6A34D7F3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B3401F-A1E8-490C-B957-9B3F6A34D7F3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9F9B0D1B-0203-491A-BAC2-5D3F294BAFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9B0D1B-0203-491A-BAC2-5D3F294BAFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9B0D1B-0203-491A-BAC2-5D3F294BAFB9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9B0D1B-0203-491A-BAC2-5D3F294BAFB9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F08D7687-58EC-4931-A974-BBF8FB70B0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08D7687-58EC-4931-A974-BBF8FB70B0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08D7687-58EC-4931-A974-BBF8FB70B0DA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08D7687-58EC-4931-A974-BBF8FB70B0DA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6F4AD319-D462-4D41-B401-62C053F2E77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4AD319-D462-4D41-B401-62C053F2E77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4AD319-D462-4D41-B401-62C053F2E77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4AD319-D462-4D41-B401-62C053F2E77D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
